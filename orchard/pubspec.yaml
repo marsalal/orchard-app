@@ -52,9 +52,12 @@ dev_dependencies:
   flutter_lints: ^1.0.0
 
 flutter_native_splash: 
-    color: "#90ee90"
+    color: Color.fromRGBO(r, g, b, 0)
+    image: 'assets/orchard_splash.png'
     android: true
     iOS: true
+    
+    
 
 
 # For information on the generic Dart part of this file, see the
